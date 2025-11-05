@@ -1,0 +1,32 @@
+export const metadata = { title: '?? | Evidence AI Consulting' };
+
+export default function PricingPage() {
+  return (
+    <div className="section">
+      <div className="container max-w-4xl">
+        <h1 className="text-3xl font-bold text-white">??</h1>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          <div className="card">
+            <h3 className="text-white font-semibold">??????????</h3>
+            <p className="mt-2 text-slate-300/90">??20??????3???</p>
+            <ul className="mt-3 text-slate-300/90 list-disc pl-5 space-y-1">
+              <li>??MTG/????</li>
+              <li>KPI?????????</li>
+              <li>??AI???/????</li>
+              <li>????????????????</li>
+            </ul>
+          </div>
+          <div className="card">
+            <h3 className="text-white font-semibold">???????</h3>
+            <ul className="mt-2 text-slate-300/90 list-disc pl-5 space-y-1">
+              <li>??RAG/?????????</li>
+              <li>???????/????</li>
+              <li>?????????SaaS/?????</li>
+            </ul>
+            <p className="mt-3 text-slate-300/90 text-sm">????????????????</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
